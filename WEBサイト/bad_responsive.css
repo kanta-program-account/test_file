@@ -1,0 +1,53 @@
+/* タブレット向けレイアウト */
+@media (max-width: 1100px) {
+  /*トップページ*/
+    .top-wrapper {
+        background-image: url(top_small.jpg);
+        padding-top: 300px;
+        padding-bottom: 300px;
+    }
+
+    .icon a{
+      padding:80px;
+    }
+
+    /*部員紹介ページ*/
+    .flex-list li{
+      width:50%;
+    }
+
+  }
+  
+  /* スマホ向けレイアウト */
+  @media (max-width: 670px) {
+    /*トップページ*/
+    .logo{
+      width:160px;
+    }
+
+    .top-wrapper {
+      padding-top: 170px;
+      padding-bottom: 165px;
+  }
+
+    .intro{
+      flex-direction: column;
+    }
+
+    .icon a{
+      padding:80px;
+    }
+
+    .grade1 a{
+      margin-top: 30px;
+    }
+
+    .grade2 a{
+      margin:50px 0;
+    }
+    /*部員紹介ページ*/
+    .flex-list li{
+      width:100%;
+    }
+
+  }
